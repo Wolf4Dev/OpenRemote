@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHARGER 1 MARKTHAL - POWER"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="32dp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_more_vert_24"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="40dp"
+        >
+
+        <ImageView
+            android:id="@+id/gas_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_baseline_local_gas_station_24"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:id="@+id/km"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 kW"
+            android:layout_toEndOf="@+id/gas_icon"
+            android:layout_marginStart="12dp"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:src="@drawable/img"
+        android:layout_below="@+id/info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-7"
+        android:textColor="@color/black"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/image"
+        android:layout_marginBottom="60dp"
+        android:textSize="20sp"
+        android:layout_marginEnd="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAY"
+        android:textColor="#77C270"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/image"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:layout_marginEnd="20dp"
+        />
+
+</RelativeLayout>

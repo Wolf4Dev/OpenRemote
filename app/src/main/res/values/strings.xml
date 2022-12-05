@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">OpenRemote</string>
+    <string name="assets">Assets</string>
+    <string name="markthal">Markthal</string>
+    <string name="attributes">ATTRIBUTES</string>
+    <string name="buffer">Buffer</string>
+    <string name="_3">3</string>
+    <string name="sub_title">Updated on: Thu, Dec 02 , 2022 13:00 AM</string>
+    <string name="occupied_spaces">Occupied spaces</string>
+    <string name="_442">442</string>
+    <string name="_178">178</string>
+    <string name="daily_tariff">Daily tariff ($)</string>
+</resources>
